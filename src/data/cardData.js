@@ -1,9 +1,9 @@
-  const data = [
+const data = [
   {
     id: 1,
     tag: "Best Choice",
-    tagImage: "/src/assets/choiceIcon.png",
-    img: "/src/assets/monitor.png",
+    tagImage: "../assets/choiceIcon.png",
+    img: "../assets/monitor.png",
     name: "Builder 1",
     title: "WixPro 72-Inch Responsive Website Builder- ",
     description:
@@ -19,8 +19,8 @@
   {
     id: 2,
     tag: "Best Value",
-    tagImage: "/src/assets/valueIcon.png",
-    img: "/src/assets/monitor.png",
+    tagImage: "../assets/valueIcon.png",
+    img: "../assets/monitor.png",
     name: "Biulder",
     title: "SiteCraft 68-Inch Ultimate Web Design Studio-",
     description:
@@ -37,7 +37,7 @@
     id: 3,
     tag: "",
     tagImage: "",
-    img: "/src/assets/monitor.png",
+    img: "../assets/monitor.png",
     name: "Builder 1",
     title: "WixPro 72-Inch Responsive Website Builder- ",
     description:
@@ -54,7 +54,7 @@
     id: 4,
     tag: "",
     tagImage: "",
-    img: "/src/assets/monitor.png",
+    img: "../assets/monitor.png",
     name: "CDK",
     title: "CDK Resposive Builder: ",
     description:
@@ -80,4 +80,4 @@
     ratingTag: "Very Good",
   },
 ];
-export default {data}
+export default { data };
