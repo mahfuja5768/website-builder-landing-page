@@ -2,7 +2,7 @@ import downArrow from "../../assets/downArrow.png";
 const Footer = () => {
   return (
     <div className="bg-black text-[#B6BDC4] m-2">
-      <div className="max-w-[1024px] mx-auto px-6 py-12 pb-28 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="max-w-[1024px] mx-auto px-6 py-12 pb-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div>
           <h3 className=" uppercase text-white">Categories</h3>
           <ul className="flex flex-col gap-5 mt-5 text-[13px]">
