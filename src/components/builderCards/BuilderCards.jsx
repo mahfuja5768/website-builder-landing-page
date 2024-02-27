@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
-import cardData from '../../../public/cardData'
+import cardData from "../../data/cardData";
+import BuilderCard from "./BuilderCard";
 
 const BuilderCards = () => {
-  // const [data, setData] = useState([])
-      const getData = cardData
-      const allData = getData.data
-      console.log(allData);
+  const getData = cardData;
+  const allData = getData.data;
+  console.log(allData);
 
   return (
-    <div>
+    <div className="grid grid-cols-1 gap-8 my-12">
       {allData?.map((item) => (
-        <p key={item.id}>{item.name}</p>
+        <BuilderCard key={item.id} item={item} />
       ))}
     </div>
   );

@@ -13,6 +13,7 @@
     points: "",
     whyLove: "",
     rating: 9.8,
+    ratingValue: 4.8,
     ratingTag: "Exceptional",
   },
   {
@@ -29,6 +30,7 @@
     points: "",
     whyLove: "",
     rating: 9.5,
+    ratingValue: 4.5,
     ratingTag: "Excellent",
   },
   {
@@ -45,6 +47,7 @@
     points: "",
     whyLove: "",
     rating: 9.3,
+    ratingValue: 4.3,
     ratingTag: "Exceptional",
   },
   {
@@ -73,6 +76,7 @@
     ],
     whyLove: ["Documentation", "Easy Use", "Out of box"],
     rating: 9.1,
+    ratingValue: 4.1,
     ratingTag: "Very Good",
   },
 ];
