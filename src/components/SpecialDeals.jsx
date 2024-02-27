@@ -1,6 +1,6 @@
 const SpecialDeals = () => {
   return (
-    <div className="flex justify-between flex-col md:flow-row gap-5 items-center my-20">
+    <div className="flex justify-between flex-col md:flex-row gap-5 items-center my-20">
       <h2 className="md:text-3xl text-2xl text-[#5C6874] md:w-2/5">
         Sign up and get exclusive special deals
       </h2>
