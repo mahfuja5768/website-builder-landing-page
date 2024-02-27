@@ -2,8 +2,8 @@ const data = [
   {
     id: 1,
     tag: "Best Choice",
-    tagImage: "../assets/choiceIcon.png",
-    img: "../assets/monitor.png",
+    tagImage: "choiceIcon.png",
+    img: "monitor.png",
     name: "Builder 1",
     title: "WixPro 72-Inch Responsive Website Builder- ",
     description:
@@ -19,8 +19,8 @@ const data = [
   {
     id: 2,
     tag: "Best Value",
-    tagImage: "../assets/valueIcon.png",
-    img: "../assets/monitor.png",
+    tagImage: "valueIcon.png",
+    img: "monitor.png",
     name: "Biulder",
     title: "SiteCraft 68-Inch Ultimate Web Design Studio-",
     description:
@@ -37,7 +37,7 @@ const data = [
     id: 3,
     tag: "",
     tagImage: "",
-    img: "../assets/monitor.png",
+    img: "monitor.png",
     name: "Builder 1",
     title: "WixPro 72-Inch Responsive Website Builder- ",
     description:
@@ -54,7 +54,7 @@ const data = [
     id: 4,
     tag: "",
     tagImage: "",
-    img: "../assets/monitor.png",
+    img: "monitor.png",
     name: "CDK",
     title: "CDK Resposive Builder: ",
     description:

@@ -2,6 +2,7 @@ import arrow from "../../assets/blueDownArrow.png";
 import rightIcon from "../../assets/rightIcon2.png";
 import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
+import { getImgUrl } from "../../utils/getImagePath";
 
 export default function BuilderCard({ item }) {
   const {
@@ -26,7 +27,7 @@ export default function BuilderCard({ item }) {
         {tag && tagImage && (
           <p className=" bg-orange flex items-center gap-2 rounded-r-md h-[34px] px-3 text-white justify-center absolute -left-2 -top-3">
             <span>
-              <img src={tagImage} alt="" />
+              <img src={getImgUrl(tagImage)} alt="" />
             </span>
             <span>{tag}</span>
           </p>
@@ -36,7 +37,7 @@ export default function BuilderCard({ item }) {
         </p>
         <img
           className="mt-6 md:mt-0 w-[141px] h-[103px] mx-auto"
-          src={img}
+          src={getImgUrl(img)}
           alt="img"
         />
         <p className="text-[#626E79] text-sm text-center my-5">{name}</p>
