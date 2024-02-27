@@ -36,14 +36,14 @@ const TopHeader = () => {
         {options.map((item) => (
           <li
             key={item}
-            className=" list-none text-[13px] text-[#4B5665] bg-white w-[138px] rounded-lg h-[36px] flex justify-start ps-4 items-center"
+            className=" list-none text-[13px] text-[#4B5665] bg-white md:w-[138px] rounded-lg h-[36px] flex justify-start ps-4 items-center"
           >
             {item}
           </li>
         ))}
       </div>
       <div>
-        <ul className="flex items-center gap-5 text-[#727D87] my-4 mt-7 text-sm">
+        <ul className="md:flex grid grid-cols-3 items-center gap-5 text-[#727D87] my-4 mt-7 text-sm  ">
           <li className="flex items-center gap-5">
             Home <img src={greaterImg} alt="greaterImg" />
           </li>
